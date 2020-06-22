@@ -9,15 +9,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    var number = 0
+
     var body: some View {
         VStack {
             VStack(alignment: .center) {
                 Text("Number: 0")
                 HStack(alignment: .center){
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Button(action: {
+                        print("プラス！")
+                    }) {
                         Text("プラス")
                     }
-                    Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
+                    Button(action: {
+                        print("マイナス！")
+                    }) {
                         Text("マイナス")
                     }
                 }
