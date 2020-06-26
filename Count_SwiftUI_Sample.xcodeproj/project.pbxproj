@@ -13,6 +13,7 @@
 		67B1F61624A174E5009AC663 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F61524A174E5009AC663 /* Assets.xcassets */; };
 		67B1F61924A174E5009AC663 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F61824A174E5009AC663 /* Preview Assets.xcassets */; };
 		67B1F61C24A174E5009AC663 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67B1F61A24A174E5009AC663 /* LaunchScreen.storyboard */; };
+		67B1F62424A1921D009AC663 /* NextNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B1F62324A1921D009AC663 /* NextNavigationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		67B1F61824A174E5009AC663 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67B1F61B24A174E5009AC663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67B1F61D24A174E5009AC663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67B1F62324A1921D009AC663 /* NextNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextNavigationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				67B1F61A24A174E5009AC663 /* LaunchScreen.storyboard */,
 				67B1F61D24A174E5009AC663 /* Info.plist */,
 				67B1F61724A174E5009AC663 /* Preview Content */,
+				67B1F62324A1921D009AC663 /* NextNavigationView.swift */,
 			);
 			path = Count_SwiftUI_Sample;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				67B1F61024A174E4009AC663 /* AppDelegate.swift in Sources */,
+				67B1F62424A1921D009AC663 /* NextNavigationView.swift in Sources */,
 				67B1F61224A174E4009AC663 /* SceneDelegate.swift in Sources */,
 				67B1F61424A174E4009AC663 /* ContentView.swift in Sources */,
 			);

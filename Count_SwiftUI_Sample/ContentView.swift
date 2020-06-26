@@ -12,19 +12,28 @@ struct ContentView: View {
     @State var number = 0
 
     var body: some View {
-        VStack {
-            VStack(alignment: .center) {
-                Text("Number: \(number)")
-                HStack(alignment: .center){
-                    Button(action: {
-                        self.number += 1
-                    }) {
-                        Text("プラス")
-                    }
-                    Button(action: {
-                        self.number -= 1
-                    }) {
-                        Text("マイナス")
+        List {
+            HStack {
+                Image("me")
+                VStack {
+                    VStack(alignment: .center) {
+                        Text("Number: \(number)")
+                            .font(.largeTitle)
+                        HStack(alignment: .center){
+                            Button(action: {
+                                self.number += 1
+                            }) {
+                                Text("プラス")
+                                    .font(.subheadline)
+                            }
+                            Button(action: {
+                                self.number -= 1
+                            }) {
+                                Text("マイナス")
+                                    .font(.caption)
+                            }
+                            .foregroundColor(.gray)
+                        }
                     }
                 }
             }
